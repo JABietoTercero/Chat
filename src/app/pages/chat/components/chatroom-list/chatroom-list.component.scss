@@ -1,0 +1,8 @@
+.chatroom-list{
+    border-right: 2px solid black;
+    overflow-y:scroll;
+    .chatroom-list-item{
+        border-right: 2px solid yellow;
+        padding :1em;
+    }
+}

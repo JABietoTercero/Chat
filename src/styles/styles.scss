@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@import '_variables';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+
+
+.container-wrapper {
+    height: calc(100vh - 80px) !important;
+    
+}
