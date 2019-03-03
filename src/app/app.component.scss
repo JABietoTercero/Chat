@@ -1,11 +1,18 @@
-@import '../styles/variables';
+@import '../styles/_variables';
 
 .alert-wrapper {
    position: relative;
 
    alert {
        position: absolute;
-       top:80px;
+       top: $navbar-height;
        width: 100%;
+       z-index: 10;
    }
+}
+
+.router{
+    position: absolute;
+    top: $navbar-height;
+    width:100%;
 }

@@ -1,8 +1,17 @@
+@import '../../../../../styles/_variables';
 .chatroom-list{
-    border-right: 2px solid black;
-    overflow-y:scroll;
+    background-color: $primary;
+    border-right: 2px groove white;
+    overflow-y: none;
+    color: white;
+
     .chatroom-list-item{
-        border-right: 2px solid yellow;
-        padding :1em;
+        border-bottom: 2px solid white;
+        padding: 15px;
+    }
+
+    a{
+        margin-left: 10%;
+        color: white;
     }
 }

@@ -1,0 +1,29 @@
+@import '../../../styles/_variables';
+
+.container{
+    background-color: $primary;
+    width:100%;
+    margin:0;
+    padding:0;
+    max-width: none;
+    color:white;
+}
+.form-wrapper{
+    padding: 25px;
+    background-color:$secondary;
+    border-width: 4px;
+	border-style: groove;
+	border-color: white;
+}
+button{
+    background: white;
+    color:black;
+}
+a{
+    color: white;
+}
+input{
+    background-color: white;
+    border-color: white;
+ 
+}

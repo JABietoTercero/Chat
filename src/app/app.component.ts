@@ -10,17 +10,20 @@ import { LoadingService } from './services/loading.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
 export class AppComponent {
   public alerts: Array<Alert> = [];
   private subscriptions: Subscription[] = [];
   public loading: boolean = false;
 
-  constructor(private alertService: AlertService, private loadingService: LoadingService) {
+  constructor(private alertService: AlertService,
+     private loadingService: LoadingService) {
 
   }
+  
   ngOnInit() {
     this.subscriptions.push(
-      this.alertService.alert.subscribe(alert => {
+      this.alertService.alerts.subscribe(alert => {
         this.alerts.push(alert);
       }))
 

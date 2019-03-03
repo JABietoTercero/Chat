@@ -1,4 +1,24 @@
+@import '../../../styles/_variables';
 
-span,a{
-    color: #ffffff;
+nav{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: $navbar-height ;
+    background-color: $secondary    !important;
 }
+
+span, .nav-link{
+    color: #FFFFFF !important;
+}
+
+a{
+        &.active{
+            border-bottom: 3px solid lightgrey;
+        }
+}
+
+.nav-item{
+    margin-right: 15px;
+}
+

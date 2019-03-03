@@ -1,0 +1,11 @@
+@import '../../../styles/_variables';
+
+.container{
+    position: fixed;
+    top: $navbar-height;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: none;
+}

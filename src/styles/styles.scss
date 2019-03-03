@@ -2,9 +2,10 @@
 @import '_variables';
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
+.container-wrapper{
+    height: calc(100vh - 60px) !important;
+}
 
-
-.container-wrapper {
-    height: calc(100vh - 80px) !important;
-    
+.navbar{
+    height: 80px;
 }

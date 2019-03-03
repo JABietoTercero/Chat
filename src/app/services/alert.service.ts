@@ -6,7 +6,7 @@ import { Alert } from '../classes/alert';
 @Injectable()
 export class AlertService {
 
-  public alert: Subject<Alert> = new Subject();
+  public alerts: Subject<Alert> = new Subject();
 
   constructor() { }
 }

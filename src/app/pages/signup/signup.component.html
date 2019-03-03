@@ -4,18 +4,21 @@
     <h2 class="text-center">Signup</h2>
     <form [formGroup]="signupForm" (submit)="submit()" novalidate>
       <div class="form-group">
+        <input type="firstname" class="form-control" id="firstname-input" placeholder="Enter first name"
+          formControlName="firstname">
+      </div>
+      <div class="form-group">
+        <input type="lastname" class="form-control" id="lastname-input" placeholder="Enter last name"
+          formControlName="lastname">
+      </div>
+      <div class="form-group">
         <input type="email" class="form-control" id="email-input" placeholder="Enter Email" formControlName="email">
       </div>
       <div class="form-group">
-        <input type="password" class="form-control" id="password-input" placeholder="Password" formControlName="password">
+        <input type="password" class="form-control" id="password-input" placeholder="Password"
+          formControlName="password">
       </div>
-      <div class="form-group">
-        <input type="firstname" class="form-control" id="firstname-input" placeholder="Enter first name" formControlName="firstname">
-      </div>
-      <div class="form-group">
-        <input type="lastname" class="form-control" id="lastname-input" placeholder="Enter last name" formControlName="lastname">
-      </div>
-      <button type="submit" class="btn btn-primary" >Submit</button>
+      <button type="submit" class="btn btn-primary">Submit</button>
     </form>
   </div>
 </div>

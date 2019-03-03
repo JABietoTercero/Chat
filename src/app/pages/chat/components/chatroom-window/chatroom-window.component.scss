@@ -1,0 +1,14 @@
+@import '../../../../../styles/_variables';
+.chat-window{
+    padding-top:10px;
+    background-color: $primary;
+    color: white;
+}
+.input-message{
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
+.message-wrapper{   
+    margin-bottom: 35px;
+}

@@ -1,0 +1,18 @@
+@import '../../../../../styles/_variables';
+
+.chat-message {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right:10px;
+    border-bottom: 2px groove lightgrey;
+}
+
+img{
+    height: 100px !important;
+    margin-left:20px;
+}
+
+.bubble{
+    margin-left:20px;
+    margin-right:20px;
+}
